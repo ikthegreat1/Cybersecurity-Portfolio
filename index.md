@@ -5,7 +5,7 @@
 
 Welcome! This site showcases compact, working projects that demonstrate API design, incident response skills, and practical automation.
 
-> **Certifications**: Security+ • CySA+ • AWS Cloud Practitioner
+> **Certifications**: •Security+ • CySA+ •CSAP •CCNA • AWS Cloud Practitioner
 > **Focus**: SOC Analyst • IT Audit • Risk/Compliance • Blue Team
 
 ---
