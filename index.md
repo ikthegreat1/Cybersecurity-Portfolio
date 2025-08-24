@@ -1,8 +1,5 @@
 
----
-layout: default
-title: Portfolio
----
+
 
 # Cybersecurity & Java Portfolio
 
