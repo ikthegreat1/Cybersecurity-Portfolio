@@ -40,14 +40,14 @@ Wrote SQL queries to filter failed login attempts that occurred after 18:00. Thi
 
 Queried login data for suspicious events that occurred on 2022-05-08 and 2022-05-09. I used logical operators (OR) to filter for multiple dates at once.
 
-[Insert Screenshot: Date-Based Query & Output]
+![Open Portfolio Apply filters to SQL queries](https://github.com/user-attachments/assets/daa398de-011c-4df7-a575-22c0e9554b71)
 
 🔹 Detected Foreign Login Attempts
 
 
 Retrieved all login attempts that occurred outside of Mexico using a NOT LIKE 'MEX%' filter. This helped isolate unusual geographic login activity.
 
-[Insert Screenshot: Outside Mexico Query & Output]
+![IMG_8748](https://github.com/user-attachments/assets/2ec4d114-be3d-4a70-9341-507504b6377c)
 
 🔹 Identified Employees for Security Updates
 Pulled employee machines from the Marketing department (East building).
@@ -58,7 +58,7 @@ Retrieved employees not in IT to apply specialized updates.
 
 
 
-[Insert Screenshot: Employee Queries & Output]
+![IMG_8749](https://github.com/user-attachments/assets/4d486891-1caf-42cf-9e48-8a7cdb027977)
 
 SQL Techniques Used
 Filtering with WHERE clauses
@@ -81,10 +81,5 @@ Detecting abnormal login activity
 Supporting IT teams with system updates
 
 
-
 It demonstrates both technical SQL query skills and practical security problem-solving.
-**How to Run**
-```bash
-javac ChatPortfolioServer.java
-java ChatPortfolioServer
-# Server: http://localhost:8080
+
