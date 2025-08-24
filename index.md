@@ -1,123 +1,34 @@
+
+Ik O <mr.loyalty16@gmail.com>
+11:02 AM (0 minutes ago)
+to me
+
 ---
 layout: default
+title: Portfolio
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Cybersecurity & Java Portfolio
 
-[Link to another page](./another-page.html).
+Welcome! This site showcases compact, working projects that demonstrate API design, incident response skills, and practical automation.
 
-There should be whitespace between paragraphs.
+> **Certifications**: Security+ • CySA+ • AWS Cloud Practitioner
+> **Focus**: SOC Analyst • IT Audit • Risk/Compliance • Blue Team
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+---
 
-# Header 1
+## 🔹 Project 1 — Chat API (Single-File Java)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+A tiny Java HTTP API that demonstrates REST endpoints, request parsing, JSON responses, and in-memory data structures — **all in one file** (no frameworks).
 
-## Header 2
+**Endpoints**
+- `GET /health`
+- `POST /createUser` — body: `{ "userName": "..." }`
+- `POST /createDeposit` — body: `{ "userId": "...", "amount": 50 }`
+- `GET /getTransactions?userId=...`
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+**How to Run**
+```bash
+javac ChatPortfolioServer.java
+java ChatPortfolioServer
+# Server: http://localhost:8080
