@@ -1,8 +1,4 @@
 
-Ik O <mr.loyalty16@gmail.com>
-11:02 AM (0 minutes ago)
-to me
-
 ---
 layout: default
 title: Portfolio
