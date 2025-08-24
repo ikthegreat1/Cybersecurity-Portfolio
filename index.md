@@ -80,5 +80,104 @@ Supporting IT teams with system updates
 
 It demonstrates both technical SQL query skills and practical security problem-solving. 
 
-## 🔹 Project 2 — Apply Filters to SQL Queries
+## 🔹 Project 2 — IP Allow List Automation Project
 
+
+Description:
+
+I developed a Python algorithm to automate management of restricted content access by updating the allow_list.txt file. This script ensures that outdated or unauthorized IP addresses are removed, maintaining secure access controls.
+
+
+
+Key Steps
+
+1. Open the allow list file
+
+Used with open(import_file, "r") to safely read the file.
+Ensured the file was automatically closed after reading.
+
+
+<img width="1026" height="180" alt="image" src="https://github.com/user-attachments/assets/09193e44-1b3f-46cd-9101-cb8f8301956e" />
+
+2. Read file contents
+
+
+
+Applied .read() to convert the IP addresses into a string.
+Stored results in a variable for further processing.
+
+
+
+
+<img width="1026" height="180" alt="image" src="https://github.com/user-attachments/assets/31c966e6-205f-4ac9-a152-96c99cc1c6da" />
+
+
+
+
+3. Convert string to list
+
+
+
+Used .split() to separate the IP addresses into list format.
+Allowed easy removal of specific IPs later.
+
+
+
+
+<img width="929" height="180" alt="image" src="https://github.com/user-attachments/assets/3c660d7e-6b42-496a-9a20-2b147c01ff66" />
+
+
+
+
+
+4. Iterate through the remove list
+
+
+
+Implemented a for loop to check each IP address in remove_list.
+Conditional logic ensured only valid entries were processed.
+
+
+
+
+<img width="682" height="274" alt="image" src="https://github.com/user-attachments/assets/9850ff7c-89ad-4ff3-a092-832252d7f2f2" />
+
+
+
+
+
+5. Remove unauthorized IPs
+
+
+
+Applied .remove() method to delete IPs from the allow list.
+Prevented access for flagged addresses.
+
+
+
+
+<img width="936" height="307" alt="image" src="https://github.com/user-attachments/assets/db275d82-1feb-4fab-b325-053cee75a5d7" />
+
+
+6. Update and overwrite file
+
+Converted list back into a string using .join().
+Rewrote the allow_list.txt file with updated IPs using open(..., "w").
+
+
+
+
+<img width="1052" height="180" alt="image" src="https://github.com/user-attachments/assets/fe0611be-0bbb-402e-b8d3-1d45f6ac5714" />
+
+
+
+<img width="710" height="213" alt="image" src="https://github.com/user-attachments/assets/42460fc4-f412-49c3-bcd7-e94cdd61c4c3" />
+
+
+Final Outcome
+
+This project automated the process of maintaining a secure allow list. The script successfully:
+
+Removed unauthorized IP addresses.
+Rewrote the file with updated entries.
+Ensured restricted content is only accessible to approved IPs
