@@ -81,5 +81,7 @@ Detecting abnormal login activity
 Supporting IT teams with system updates
 
 
-It demonstrates both technical SQL query skills and practical security problem-solving.
+It demonstrates both technical SQL query skills and practical security problem-solving. 
+
+## 🔹 Project 2 — Apply Filters to SQL Queries
 
