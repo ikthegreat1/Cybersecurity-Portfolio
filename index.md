@@ -180,4 +180,19 @@ This project automated the process of maintaining a secure allow list. The scrip
 
 Removed unauthorized IP addresses.
 Rewrote the file with updated entries.
-Ensured restricted content is only accessible to approved IPs
+Ensured restricted content is only accessible to approved IPs 
+
+
+🔹 Project 3 — Packet Analysis (Wireshark) 
+
+
+🔹Capture of all my devices pinged (network topology consists of three servers (webserver, fileserver, utilserver) and a workstation (h1).)  
+
+#Looking at ARP traffic.A good way to discover all live hosts on a network. Close analysis of these packets can lead to discoveries of nefarious behaviors such as MAC spoofing, MITM attacks, and NAC (Network Access Control) failures.
+
+<img width="1223" height="770" alt="image" src="https://github.com/user-attachments/assets/f6ec2a2f-eaaa-46e7-b57a-d236de610a50" />
+
+🔹Hunted for unsecured protocols and found telnet being used which contained a username and password in plain text. :) 
+
+<img width="1083" height="480" alt="image" src="https://github.com/user-attachments/assets/05878295-d80e-4dee-885f-ffd4566cbcd1" />
+
